@@ -46,7 +46,7 @@ $ npm install lucidfusion/SlabJS -g
 #### Create the app:
 ```sh
 # Create your app
-$ slabjs create app
+$ slab create app
 ```
 
 #### Launch the app and get working:
@@ -55,7 +55,7 @@ $ slabjs create app
 $ cd app
 
 # launch the server
-$ slabjs launch
+$ slab launch
 ```
 
 #### Compile for production
@@ -67,7 +67,7 @@ By passing production into the environment option, you will be making the follow
 + Generate gzip for your JS files (it's up to you how you enable them)
 ```sh
 # launch the server with production code
-$ slabjs launch --env production
+$ slab launch --env production
 ```
 
 ## Project Configuration
@@ -140,13 +140,13 @@ Sometimes, live updating will not always work for you. This is where generators 
 #### Regenerate your SVG font.
 ```sh
 # Make more font characters
-$ slabjs generate icons
+$ slab generate icons
 ```
 
 #### Fetch the latest Font Awesome library
 ```sh
 # Get the latest Font Awesome
-$ slabjs generate fontawesome
+$ slab generate fontawesome
 ```
 
 More to come...

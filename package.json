@@ -37,6 +37,6 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "slabjs": "lib/slabjs.js"
+    "slab": "lib/slabjs.js"
   }
 }
