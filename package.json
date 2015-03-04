@@ -1,0 +1,42 @@
+{
+  "name": "SlabJS",
+  "version": "0.1.7",
+  "description": "A front-end framework for compiling static pages with PageSpeed optimization.",
+  "keywords": [
+    "slabjs",
+    "bootstrap",
+    "sass",
+    "handlebars",
+    "browsersync",
+    "live reload",
+    "html",
+    "node"
+  ],
+  "main": "lib/slabjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucidfusion/SlabJS.git"
+  },
+  "author": "Danny Campanile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucidfusion/SlabJS/issues"
+  },
+  "homepage": "https://github.com/lucidfusion/SlabJS",
+  "dependencies": {
+    "child-exec": "^1.0.0",
+    "cli-spinner": "^0.2.0",
+    "commander": "^2.6.0",
+    "fs-extra": "^0.16.3",
+    "gulp": "^3.8.10",
+    "prompt": "^0.2.14",
+    "replace": "^0.3.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "slabjs": "lib/slabjs.js"
+  }
+}
