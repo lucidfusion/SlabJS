@@ -10,8 +10,7 @@
   },
   "browserify": {
     "transform": [
-      "browserify-shim",
-      "debowerify"
+      "browserify-shim"
     ]
   },
   "browserify-shim": {

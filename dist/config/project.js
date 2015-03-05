@@ -21,7 +21,7 @@ module.exports = {
 	
 	google_fonts: {
 		families: [
-			'Lobster',
+			'Titillium+Web:400,600',
 			'Raleway:400,200,700'
 		]
 	},
@@ -46,7 +46,7 @@ module.exports = {
 	},
 	
 	template_data: {
-		title: 'Make things so hard'	
+		title: 'Make the thing...'	
 	}
 	
 }
