@@ -1,6 +1,9 @@
 $purple: #6f5499;
+$dark-purple: #2c223d;
 $white: #f5efe3;
 $grey: #323232;
+$light-grey: #eee;
+$blue: #337ab7;
 
 h1, h2, h3, h4 {
     font-family: 'Raleway', sans-serif;
@@ -14,26 +17,87 @@ p {
 
 .navbar {
     margin-bottom: 0;
+    background: $dark-purple;
+    border: none;
+    border-radius: 0;
+    font-family: 'Titillium Web', sans-serif;
+    
+    .navbar-brand {
+         font-size: 26px;   
+    }
+    
+    .lf-logo {
+        float: right;
+    }
+    
+    li {
+        font-size: 16px;   
+    }
+    .semibold {
+        font-weight: 600;
+    }
+    .thin {
+        font-weight: 200;
+    }
+    
+    a, a:visited {
+        color: #fff !important;
+    }
+    
+    a:hover {
+        opacity: 0.7;   
+    }
 }
 
 #header {
     padding-top: 40px;
     padding-bottom: 20px;
-    color: $white;
+    color: #000;
     background: $purple;
     text-align: center;
-    i {
-        font-size: 200px;
-        line-height: 1;
+    .slab-logo {
+        background: url('../images/slabjs.png') no-repeat top center;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
     }
     h1 {
         font-family: 'Titillium Web', sans-serif;
         text-align: center;
-        font-size: 120px;
-        line-height: 100px;
+        font-size: 84px;
+        line-height: 120%;
         margin: 0 0 20px;
+        
+        .semibold {
+            font-weight: 600;
+            opacity: 0.9;
+        }
+        .thin {
+            font-weight: 200;
+            opacity: 0.7;
+        }
     }
     a.get-started {
+        background: rgba(0,0,0,0.7);
+        
+        &:hover {
+            background: rgba(0,0,0,0.9);
+            text-decoration: none;
+        }
+    }
+}
 
+#footer {
+    background: $light-grey;
+    padding-bottom: 10px;
+    p {
+        font-size: 14px;
+    }
+    
+    a, a:visited, a:hover {
+         color: $blue;   
     }
 }

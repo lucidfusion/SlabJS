@@ -1,6 +1,6 @@
 # SlabJS
 
-SlabJS is a web framework that allows you to build a web application and then compile it into standalone HTML.
+SlabJS is a web framework that allows you to build dynamic web applications and compile them into standalone, optimized, static HTML.
 
 ## Features
 
@@ -119,7 +119,7 @@ google_analytics: {
 ```sh
 # ./config/project.js
 template_data: {
-	title: 'Make things so hard'	
+	title: 'Example title'	
 }
 ```
 
@@ -130,7 +130,7 @@ template_data: {
 
 ```sh
 # ./build/index.html
-<title>Make things so hard</title>
+<title>Example title</title>
 ```
 
 ## Generators
