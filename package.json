@@ -1,5 +1,5 @@
 {
-  "name": "SlabJS",
+  "name": "slabjs",
   "version": "0.2.2",
   "description": "A front-end framework for compiling static pages with PageSpeed optimization.",
   "keywords": [
@@ -10,9 +10,15 @@
     "browsersync",
     "live reload",
     "html",
-    "node"
+    "node",
+    "browserify",
+    "libsass",
+    "google",
+    "analytics",
+    "fonts",
+    "icons"    
   ],
-  "main": "lib/slabjs.js",
+ "main": "lib/slabjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +26,10 @@
     "type": "git",
     "url": "https://github.com/lucidfusion/SlabJS.git"
   },
-  "author": "Danny Campanile",
-  "license": "MIT",
+  "author": {
+    "name": "Lucid Fusion"
+  },
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/lucidfusion/SlabJS/issues"
   },
@@ -38,5 +46,33 @@
   "preferGlobal": "true",
   "bin": {
     "slab": "lib/slabjs.js"
-  }
+  },
+  "gitHead": "640843ac066222516f230b38708047f148ef412a",
+  "_id": "slabjs@0.2.1",
+  "_shasum": "40abec8a0ab9b904a32ab895b2af4c64194da685",
+  "_from": "slabjs@",
+  "_npmVersion": "1.4.21",
+  "_npmUser": {
+    "name": "lucidfusion",
+    "email": "apps@lucidfusion.com"
+  },
+  "maintainers": [
+    {
+      "name": "lucidfusion",
+      "email": "apps@lucidfusion.com"
+    },
+    {
+      "name": "dannycampa",
+      "email": "danny.campanile@gmail.com"
+    },
+    {
+      "name": "realitydesign",
+      "email": "ben@realitydesign.com"
+    }
+  ],
+  "dist": {
+    "shasum": "40abec8a0ab9b904a32ab895b2af4c64194da685",
+    "tarball": "http://registry.npmjs.org/slabjs/-/slabjs-0.2.1.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/slabjs/-/slabjs-0.2.1.tgz"
 }

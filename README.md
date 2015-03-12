@@ -38,7 +38,7 @@ The following features are included with this version:
 **With [node installed](http://nodejs.org):**
 ```sh
 # Get the latest stable release of SlabJS
-$ npm install lucidfusion/SlabJS -g
+$ npm install slabjs -g
 ```
 
 ## Make Your Project
