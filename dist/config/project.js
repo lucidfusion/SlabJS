@@ -46,7 +46,8 @@ module.exports = {
 	},
 	
 	template_data: {
-		title: 'SlabJS Starter Template'	
+		title: 'SlabJS Starter Template',
+		assets_path: './assets' // This assumes the assets folder is in the same directory as your index.html.  Change this to an absolute path or a different relative path if you want to host your assets in another folder location, on a different domain, on a CDN, etc).
 	}
 	
 }
