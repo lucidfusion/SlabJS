@@ -1,6 +1,6 @@
 {
   "name": "slabjs",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A front-end framework for compiling static pages with PageSpeed optimization.",
   "keywords": [
     "slabjs",

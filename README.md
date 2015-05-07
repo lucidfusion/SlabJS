@@ -159,5 +159,3 @@ More to come...
 + GIT Deployments
 
 ## Known Issues
-
-+ There is a minor issue on first launch where the virtual server doens't catch up with the generated files. A small refresh seems to fix it. This will be fixed in the next release.
